@@ -1,0 +1,127 @@
+export const data = {
+  userList: [
+    {
+      id: 1,
+      name: "Tuhin",
+      username: "whitexgod",
+      age: 25,
+      married: false,
+      nationality: "INDIA",
+      friends: [
+        {
+          id: 2,
+          name: "Sam",
+          username: "whitexdevil",
+          age: 24,
+          married: false,
+          nationality: "BRAZIL",
+        },
+        {
+          id: 3,
+          name: "Ram",
+          username: "whitexram",
+          age: 30,
+          married: true,
+          nationality: "BRAZIL",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Sam",
+      username: "whitexdevil",
+      age: 24,
+      married: false,
+      nationality: "BRAZIL",
+    },
+    {
+      id: 3,
+      name: "Ram",
+      username: "whitexram",
+      age: 30,
+      married: true,
+      nationality: "BRAZIL",
+      friends: [
+        {
+          id: 3,
+          name: "Ram",
+          username: "whitexram",
+          age: 30,
+          married: true,
+          nationality: "BRAZIL",
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Jodhu",
+      username: "whitexJodhu",
+      age: 27,
+      married: true,
+      nationality: "USA",
+      friends: [
+        {
+          id: 5,
+          name: "Modhu",
+          username: "whitexModhu",
+          age: 20,
+          married: false,
+          nationality: "CANADA",
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: "Modhu",
+      username: "whitexModhu",
+      age: 20,
+      married: false,
+      nationality: "CANADA",
+    },
+    {
+      id: 6,
+      name: "Honey",
+      username: "whitexHoney",
+      age: 10,
+      married: false,
+      nationality: "USA",
+    },
+  ],
+  movieList: [
+    {
+      id: 1,
+      name: "Movie-1",
+      year: 1990,
+    },
+    {
+      id: 2,
+      name: "Movie-2",
+      year: 1995,
+    },
+    {
+      id: 3,
+      name: "Movie-3",
+      year: 2000,
+    },
+    {
+      id: 4,
+      name: "Movie-4",
+      year: 2005,
+    },
+    {
+      id: 5,
+      name: "Movie-5",
+      year: 2010,
+    },
+    {
+      id: 6,
+      name: "Movie-6",
+      year: 2015,
+    },
+    {
+      id: 7,
+      name: "Movie-7",
+      year: 2020,
+    },
+  ],
+};
